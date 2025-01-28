@@ -1,0 +1,233 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "title": "Frontend Development",
+      "description": "Learn modern frontend development technologies",
+      "topics": [
+        {
+          "id": "html",
+          "title": "HTML",
+          "shortDescription": "The backbone of web development",
+          "icon": "\ud83c\udf10",
+          "content": {
+            "introduction": {
+              "title": "Introduction to HTML",
+              "description": "HTML (HyperText Markup Language) is the standard markup language for creating web pages. It structures content for the web."
+            },
+            "sections": [
+              {
+                "title": "Basic Structure",
+                "content": "Every HTML document begins with a basic structure that includes the DOCTYPE, html, head, and body tags.",
+                "codeExample": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>My Web Page</title>\n</head>\n<body>\n    <h1>Hello World!</h1>\n    <p>Welcome to my website.</p>\n</body>\n</html>",
+                "terminalCommands": [
+                  "touch index.html",
+                  "open index.html"
+                ]
+              },
+              {
+                "title": "Elements and Tags",
+                "content": "HTML uses tags to define different types of content such as headings, paragraphs, and links.",
+                "codeExample": "<p>This is a paragraph</p>\n<h1>This is a heading</h1>\n<a href=\"#\">This is a link</a>",
+                "terminalCommands": []
+              },
+              {
+                "title": "Forms",
+                "content": "HTML forms collect user input and send it to the server for processing.",
+                "codeExample": "<form action=\"submit.php\" method=\"post\">\n    <label for=\"name\">Name:</label>\n    <input type=\"text\" id=\"name\" name=\"name\">\n    <button type=\"submit\">Submit</button>\n</form>",
+                "terminalCommands": []
+              }
+            ],
+            "resources": [
+              {
+                "title": "MDN Web Docs - HTML",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+                "type": "documentation"
+              },
+              {
+                "title": "FreeCodeCamp HTML Tutorial",
+                "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+                "type": "tutorial"
+              }
+            ],
+            "videos": [
+              {
+                "title": "HTML Crash Course",
+                "embedId": "UB1O30fR-EE",
+                "description": "Learn HTML basics in this crash course"
+              },
+              {
+                "title": "Full HTML Tutorial",
+                "embedId": "qz0aGYrrlhU",
+                "description": "Complete HTML course for beginners"
+              },
+              {
+                "title": "HTML Tips and Tricks",
+                "embedId": "WQoB2z67hv8",
+                "description": "Improve your HTML skills"
+              },
+              {
+                "title": "Modern HTML Practices",
+                "embedId": "3l13oyMYZ2g",
+                "description": "Best practices in HTML5 development"
+              },
+              {
+                "title": "Advanced HTML Techniques",
+                "embedId": "XyE14TiyP_g",
+                "description": "Take your HTML knowledge to the next level"
+              }
+            ]
+          }
+        },
+        {
+          "id": "css",
+          "title": "CSS",
+          "shortDescription": "Style your web pages",
+          "icon": "\ud83c\udfa8",
+          "content": {
+            "introduction": {
+              "title": "Introduction to CSS",
+              "description": "CSS (Cascading Style Sheets) is the language used to style and layout web pages."
+            },
+            "sections": [
+              {
+                "title": "Selectors",
+                "content": "CSS selectors target HTML elements for styling.",
+                "codeExample": ".class-name {\n  color: orange;\n}\n\n#id-name {\n  background: black;\n}",
+                "terminalCommands": []
+              },
+              {
+                "title": "Box Model",
+                "content": "The CSS box model is the foundation of layout on the Web.",
+                "codeExample": ".box {\n  margin: 10px;\n  padding: 20px;\n  border: 1px solid orange;\n}",
+                "terminalCommands": []
+              },
+              {
+                "title": "Flexbox",
+                "content": "Flexbox is a layout model for arranging elements in rows or columns.",
+                "codeExample": ".container {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}",
+                "terminalCommands": []
+              }
+            ],
+            "resources": [
+              {
+                "title": "MDN Web Docs - CSS",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                "type": "documentation"
+              },
+              {
+                "title": "FreeCodeCamp CSS Tutorial",
+                "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+                "type": "tutorial"
+              }
+            ],
+            "videos": [
+              {
+                "title": "CSS Crash Course",
+                "embedId": "yfoY53QXEnI",
+                "description": "Learn CSS fundamentals"
+              },
+              {
+                "title": "Flexbox Explained",
+                "embedId": "JJSoEo8JSnc",
+                "description": "Master CSS Flexbox"
+              },
+              {
+                "title": "Grid Layout Tutorial",
+                "embedId": "jfMHA8SqUL4",
+                "description": "Learn CSS Grid for better layouts"
+              },
+              {
+                "title": "Advanced CSS Animations",
+                "embedId": "W6g10LKp0Xs",
+                "description": "Create impressive CSS animations"
+              },
+              {
+                "title": "Responsive Web Design",
+                "embedId": "QUJ1RgzjEyY",
+                "description": "Make your website responsive with CSS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "javascript",
+          "title": "JavaScript",
+          "shortDescription": "Add interactivity to your websites",
+          "icon": "\u26a1",
+          "content": {
+            "introduction": {
+              "title": "Introduction to JavaScript",
+              "description": "JavaScript is a programming language that enables interactive web pages and dynamic user experiences."
+            },
+            "sections": [
+              {
+                "title": "Variables and Data Types",
+                "content": "JavaScript has several data types and ways to declare variables.",
+                "codeExample": "let name = 'John';\nconst age = 25;\nvar isStudent = true;\n\nconsole.log(typeof name);  // string\nconsole.log(typeof age);   // number\nconsole.log(typeof isStudent);  // boolean",
+                "terminalCommands": [
+                  "node",
+                  "console.log('Hello World')"
+                ]
+              },
+              {
+                "title": "Functions",
+                "content": "Functions are reusable blocks of code.",
+                "codeExample": "function greet(name) {\n  return `Hello, ${name}!`;\n}\n\nconst greeting = greet('World');\nconsole.log(greeting);  // Hello, World!",
+                "terminalCommands": [
+                  "node",
+                  "function greet() {...}"
+                ]
+              },
+              {
+                "title": "DOM Manipulation",
+                "content": "Interact with HTML elements using JavaScript.",
+                "codeExample": "document.querySelector('h1').textContent = 'Hello from JavaScript!';",
+                "terminalCommands": []
+              }
+            ],
+            "resources": [
+              {
+                "title": "MDN Web Docs - JavaScript",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+                "type": "documentation"
+              },
+              {
+                "title": "FreeCodeCamp JavaScript Tutorial",
+                "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+                "type": "tutorial"
+              }
+            ],
+            "videos": [
+              {
+                "title": "JavaScript Crash Course",
+                "embedId": "PkZNo7MFNFg",
+                "description": "Learn JavaScript basics"
+              },
+              {
+                "title": "DOM Manipulation Tutorial",
+                "embedId": "0ik6X4DJKCc",
+                "description": "Master DOM manipulation"
+              },
+              {
+                "title": "ES6 Features Explained",
+                "embedId": "1mgLWu69ijU",
+                "description": "Explore modern JavaScript features"
+              },
+              {
+                "title": "Asynchronous JavaScript",
+                "embedId": "PoRJizFvM7s",
+                "description": "Understand async programming"
+              },
+              {
+                "title": "JavaScript Projects Tutorial",
+                "embedId": "5QAC6EJ4JRU",
+                "description": "Build projects to master JavaScript"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "platforms": [
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "description": "Connect with developers through open source communities",
+        "communities": [
+          {
+            "name": "Open Source Community",
+            "description": "Collaborate on open source projects, share knowledge, and contribute to the global developer ecosystem",
+            "members": "2M+",
+            "link": "https://github.com/community",
+            "tags": ["Open Source", "Collaboration", "Code"],
+            "activity": "Very Active",
+            "popularTopics": ["JavaScript", "Python", "React", "Web Dev"]
+          },
+          {
+            "name": "CodeNewbie",
+            "description": "Supportive community for developers starting their coding journey",
+            "members": "500K+",
+            "link": "https://github.com/codenewbie",
+            "tags": ["Beginners", "Learning", "Support"],
+            "activity": "Active",
+            "popularTopics": ["Learning Resources", "Career Advice", "Mentorship"]
+          }
+        ]
+      },
+      {
+        "name": "Reddit",
+        "icon": "reddit",
+        "description": "Join developer-focused subreddits for discussions and help",
+        "communities": [
+          {
+            "name": "r/programming",
+            "description": "A community for sharing and discussing programming knowledge",
+            "members": "4.2M+",
+            "link": "https://reddit.com/r/programming",
+            "tags": ["Discussion", "News", "Tech"],
+            "activity": "Very Active",
+            "popularTopics": ["Industry News", "Best Practices", "Tech Discussions"]
+          },
+          {
+            "name": "r/webdev",
+            "description": "Web development community for developers of all skill levels",
+            "members": "1M+",
+            "link": "https://reddit.com/r/webdev",
+            "tags": ["Web Development", "Frontend", "Backend"],
+            "activity": "Very Active",
+            "popularTopics": ["React", "Node.js", "CSS", "Career Advice"]
+          }
+        ]
+      },
+      {
+        "name": "Discord",
+        "icon": "discord",
+        "description": "Real-time chat communities for developers",
+        "communities": [
+          {
+            "name": "JavaScript",
+            "description": "The largest JavaScript community on Discord with real-time help and discussions",
+            "members": "100K+",
+            "link": "https://discord.gg/javascript",
+            "tags": ["JavaScript", "Node.js", "React"],
+            "activity": "Very Active",
+            "popularTopics": ["Frontend", "Backend", "Full Stack"]
+          },
+          {
+            "name": "Python Developer Community",
+            "description": "Python enthusiasts helping each other learn and grow",
+            "members": "80K+",
+            "link": "https://discord.gg/python",
+            "tags": ["Python", "Data Science", "AI/ML"],
+            "activity": "Very Active",
+            "popularTopics": ["Django", "Flask", "Data Science"]
+          }
+        ]
+      }
+    ]
+  }
